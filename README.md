@@ -1,4 +1,47 @@
-# CodeAlpha_Event_Registration_System
- This project is an Event Registration System built with Django for the backend and PostgreSQL for the database. It provides API endpoints to list events, display event details, and handle user registrations. Users can register for events, view their registrations, and cancel them if needed, enabling smooth and efficient event management.
+# CodeAlpha_Job_ Board_Platform
 
-Additionally, the system includes an optional admin panel for event organizers to securely add, update, or delete events. Authentication ensures that only authorized organizers can manage event details. The frontend is built using HTML and CSS, providing a clean and user-friendly interface for both attendees and admins. This system is ideal for colleges, corporate trainings, and community event registrations.
+This is a Django-based Job Board Platform designed to connect employers with job seekers. It allows employers to post job listings and candidates to view and apply for them through a simple and clean user interface built with HTML, CSS, and JavaScript.
+
+ **Features
+
+- User Registration and Login
+- Employer Dashboard for posting jobs
+- Job Seeker Dashboard to apply for jobs
+- Resume uploads with file handling
+- Django Admin Panel for managing data
+- Responsive frontend with templates and static files
+
+ **Tech Stack
+
+- Backend: Django (Python)
+- Frontend: HTML, CSS, JavaScript
+- Database: SQLite (default)
+
+** Getting Started
+
+
+1. **Set up Virtual Environment:**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
+   ```
+
+2. **Install Requirements:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run Migrations & Server:**
+
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py createsuperuser
+   python manage.py runserver
+   ```
+
+Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser to use the app.
+
+
